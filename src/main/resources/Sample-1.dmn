@@ -231,9 +231,9 @@
     <dmn:extensionElements />
     <dmn:variable id="_2BBF28D2-DF09-4201-8D7A-5820E260592B" name="Applicant Data" typeRef="Applicant_Data" />
   </dmn:inputData>
-  <dmn:decision id="_D6F4234F-15B3-4F5B-B814-5F6FF29D2907" name="Back End Ratios">
+  <dmn:decision id="_D6F4234F-15B3-4F5B-B814-5F6FF29D2907" name="Back End Ratio">
     <dmn:extensionElements />
-    <dmn:variable id="_5AF571F7-AD41-43DC-ABFD-26672585042F" name="Back End Ratios" typeRef="Back_End_Ratio" />
+    <dmn:variable id="_5AF571F7-AD41-43DC-ABFD-26672585042F" name="Back End Ratio" typeRef="Back_End_Ratio" />
     <dmn:informationRequirement id="_77BA409B-E00D-4FBC-B522-8F656D4F6F0E">
       <dmn:requiredInput href="#_1CF5CEFA-AF97-46F9-9CD5-9A8AEBB20B4E" />
     </dmn:informationRequirement>
@@ -243,7 +243,7 @@
     <dmn:knowledgeRequirement id="_3217D655-4484-4733-A9AE-4F9CF30D9924">
       <dmn:requiredKnowledge href="#_DA5CCF62-90A8-4CFC-A137-98B528522588" />
     </dmn:knowledgeRequirement>
-    <dmn:context id="_5F9FEA4E-B3FC-4BC2-913E-36B8071FA777" label="Back End Ratios">
+    <dmn:context id="_5F9FEA4E-B3FC-4BC2-913E-36B8071FA777" label="Back End Ratio">
       <dmn:contextEntry id="_8A3211AD-3C73-4F68-954D-6DCB07706772">
         <dmn:variable id="_F3ED9059-400F-4BE8-B250-C2ABCD9FF022" name="Client DTI" typeRef="number" />
         <dmn:invocation id="_4A7FC8E0-25EF-4DAF-845A-93BD89C2BC8C">
